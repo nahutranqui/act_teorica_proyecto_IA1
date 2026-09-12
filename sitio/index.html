@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raíces Artesanales — Tejidos, cerámicas y pinturas hechas a mano</title>
+  <meta name="description" content="Tienda de artesanías: tejidos, cerámicas y pinturas hechas a mano por artesanos locales.">
+  <link rel="stylesheet" href="estilosIA.css">
+</head>
+<body>
+
+  <a class="salto-al-contenido" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <header class="encabezado">
+    <div class="envoltorio barra-superior">
+      <a class="marca" href="#inicio">Raíces<span>Artesanales</span></a>
+      <nav class="nav-principal" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#articulos">Artículos</a></li>
+          <li><a href="#informacion">Información del emprendimiento</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+
+    <!-- ===================== INICIO ===================== -->
+    <section id="inicio" class="hero" aria-labelledby="titulo-inicio">
+      <div class="envoltorio hero-contenido">
+        <p class="hero-etiqueta">Hecho a mano, hilo a hilo, pieza a pieza</p>
+        <h1 id="titulo-inicio">Artesanías que guardan la historia de quien las hizo</h1>
+        <p>
+          Tejemos, moldeamos y pintamos piezas únicas inspiradas en tradiciones familiares.
+          Cada artículo es elaborado de forma artesanal, en pequeños lotes, cuidando el
+          detalle y el origen de los materiales.
+        </p>
+        <div class="hero-acciones">
+          <a class="boton boton-primario" href="#articulos">Ver artículos</a>
+          <a class="boton boton-secundario" href="#informacion">Conocer el emprendimiento</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== INFORMACIÓN ===================== -->
+    <section id="informacion" class="seccion seccion-alterna" aria-labelledby="titulo-informacion">
+      <div class="envoltorio">
+        <h2 id="titulo-informacion">Información del emprendimiento</h2>
+        <p class="subtitulo-seccion">
+          Somos un taller familiar dedicado a la artesanía textil, la cerámica y la pintura,
+          trabajando junto a artesanos y artesanas de distintas comunidades.
+        </p>
+        <div class="info-grid">
+          <article class="info-tarjeta">
+            <h3>Nuestra historia</h3>
+            <p>
+              Comenzamos hace más de quince años como un taller de tejidos familiar y hoy
+              reunimos a artesanos textiles, ceramistas y pintores bajo un mismo proyecto.
+            </p>
+          </article>
+          <article class="info-tarjeta">
+            <h3>Nuestros materiales</h3>
+            <p>
+              Usamos lana de oveja hilada a mano, arcillas locales y pigmentos naturales,
+              priorizando siempre proveedores de la región.
+            </p>
+          </article>
+          <article class="info-tarjeta">
+            <h3>Nuestro compromiso</h3>
+            <p>
+              Pagamos precios justos a cada artesano y artesana, y producimos en pequeños
+              lotes para cuidar el detalle de cada pieza.
+            </p>
+          </article>
+        </div>
+
+        <div class="responsable-sitio">
+          <h3>Responsable del sitio web</h3>
+          <p class="subtitulo-seccion">
+            Esta página es mantenida por la siguiente persona, a quien podés escribir ante
+            cualquier duda técnica o sugerencia sobre el sitio.
+          </p>
+          <dl class="responsable-datos">
+            <div class="responsable-fila">
+              <dt>Nombre</dt>
+              <dd>Julia Fernández</dd>
+            </div>
+            <div class="responsable-fila">
+              <dt>Rol</dt>
+              <dd>Responsable de contenidos y mantenimiento del sitio web</dd>
+            </div>
+            <div class="responsable-fila">
+              <dt>Correo electrónico</dt>
+              <dd><a href="mailto:web@raicesartesanales.com">web@raicesartesanales.com</a></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ARTÍCULOS ===================== -->
+    <section id="articulos" class="seccion" aria-labelledby="titulo-articulos">
+      <div class="envoltorio">
+        <h2 id="titulo-articulos">Artículos</h2>
+        <p class="subtitulo-seccion">
+          Elegí una categoría para ver los artículos disponibles.
+        </p>
+
+        <fieldset class="tabs">
+          <legend>Seleccionar categoría de artículos</legend>
+
+          <input type="radio" name="categoria" id="tab-tejidos" class="tab-input" checked>
+          <label for="tab-tejidos" class="tab-etiqueta">Tejidos</label>
+
+          <input type="radio" name="categoria" id="tab-ceramicas" class="tab-input">
+          <label for="tab-ceramicas" class="tab-etiqueta">Cerámicas</label>
+
+          <input type="radio" name="categoria" id="tab-pinturas" class="tab-input">
+          <label for="tab-pinturas" class="tab-etiqueta">Pinturas</label>
+
+          <div class="tab-paneles">
+
+            <!-- ---------- TEJIDOS ---------- -->
+            <div class="tab-panel" id="panel-tejidos">
+              <h3 class="visualmente-oculto">Tejidos</h3>
+              <div class="grilla-tarjetas">
+
+                <article class="tarjeta-articulo">
+                  <div class="tarjeta-imagen-envoltorio">
+                    <img src="articulos/tejidos/articulo1.png" alt="Poncho de lana merino tejido a mano en tonos azules">
+                  </div>
+                  <div class="tarjeta-cuerpo">
+                    <h4>Poncho de lana merino</h4>
+                    <p class="tarjeta-precio">$ 28.000</p>
+                    <p class="tarjeta-descripcion">
+                      Tejido en telar de dos peines con lana merino hilada a mano y teñida con índigo natural.
+                    </p>
+                    <a class="enlace-pdf" href="articulos/tejidos/articulo1.pdf" target="_blank" rel="noopener">
+                      Consultar ficha técnica en PDF
+                    </a>
+                  </div>
+                </article>
+
+                <article class="tarjeta-articulo">
+                  <div class="tarjeta-imagen-envoltorio">
+                    <img src="articulos/tejidos/articulo2.png" alt="Tapiz de telar llamado Cielo del Altiplano, con motivos geométricos">
+                  </div>
+                  <div class="tarjeta-cuerpo">
+                    <h4>Tapiz "Cielo del Altiplano"</h4>
+                    <p class="tarjeta-precio">$ 19.500</p>
+                    <p class="tarjeta-descripcion">
+                      Tapiz de pared tejido con motivos geométricos inspirados en el cielo nocturno del altiplano.
+                    </p>
+                    <a class="enlace-pdf" href="articulos/tejidos/articulo2.pdf" target="_blank" rel="noopener">
+                      Consultar ficha técnica en PDF
+                    </a>
+                  </div>
+                </article>
+
+                <article class="tarjeta-articulo">
+                  <div class="tarjeta-imagen-envoltorio">
+                    <img src="articulos/tejidos/articulo3.png" alt="Manta de lana cardada a mano en tono azul oscuro">
+                  </div>
+                  <div class="tarjeta-cuerpo">
+                    <h4>Manta de lana cardada</h4>
+                    <p class="tarjeta-precio">$ 24.000</p>
+                    <p class="tarjeta-descripcion">
+                      Manta abrigada de lana cardada y tejida a dos agujas, ideal para los días fríos.
+                    </p>
+                    <a class="enlace-pdf" href="articulos/tejidos/articulo3.pdf" target="_blank" rel="noopener">
+                      Consultar ficha técnica en PDF
+                    </a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+
+            <!-- ---------- CERÁMICAS ---------- -->
+            <div class="tab-panel" id="panel-ceramicas">
+              <h3 class="visualmente-oculto">Cerámicas</h3>
+              <div class="grilla-tarjetas">
+
+                <article class="tarjeta-articulo">
+                  <div class="tarjeta-imagen-envoltorio">
+                    <img src="articulos/ceramicas/articulo1.png" alt="Vasija de barro cocido con acabado rústico en tono arcilla">
+                  </div>
+                  <div class="tarjeta-cuerpo">
+                    <h4>Vasija de barro cocido</h4>
+                    <p class="tarjeta-precio">$ 15.000</p>
+                    <p class="tarjeta-descripcion">
+                      Vasija modelada a mano con torno tradicional y cocida a leña, de acabado rústico.
+                    </p>
+                    <a class="enlace-pdf" href="articulos/ceramicas/articulo1.pdf" target="_blank" rel="noopener">
+                      Consultar ficha técnica en PDF
+                    </a>
+                  </div>
+                </article>
+
+                <article class="tarjeta-articulo">
+                  <div class="tarjeta-imagen-envoltorio">
+                    <img src="articulos/ceramicas/articulo2.png" alt="Set de tazas esmaltadas llamado Tierra y Fuego, en tonos terracota">
+                  </div>
+                  <div class="tarjeta-cuerpo">
+                    <h4>Set de tazas "Tierra y Fuego"</h4>
+                    <p class="tarjeta-precio">$ 22.000</p>
+                    <p class="tarjeta-descripcion">
+                      Juego de cuatro tazas esmaltadas a mano, cada una con un tono único de cocción.
+                    </p>
+                    <a class="enlace-pdf" href="articulos/ceramicas/articulo2.pdf" target="_blank" rel="noopener">
+                      Consultar ficha técnica en PDF
+                    </a>
+                  </div>
+                </article>
+
+                <article class="tarjeta-articulo">
+                  <div class="tarjeta-imagen-envoltorio">
+                    <img src="articulos/ceramicas/articulo3.png" alt="Plato decorativo de cerámica pintado a mano con motivos florales">
+                  </div>
+                  <div class="tarjeta-cuerpo">
+                    <h4>Plato decorativo pintado a mano</h4>
+                    <p class="tarjeta-precio">$ 12.500</p>
+                    <p class="tarjeta-descripcion">
+                      Plato de cerámica esmaltada, pintado a mano con motivos florales tradicionales.
+                    </p>
+                    <a class="enlace-pdf" href="articulos/ceramicas/articulo3.pdf" target="_blank" rel="noopener">
+                      Consultar ficha técnica en PDF
+                    </a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+
+            <!-- ---------- PINTURAS ---------- -->
+            <div class="tab-panel" id="panel-pinturas">
+              <h3 class="visualmente-oculto">Pinturas</h3>
+              <div class="grilla-tarjetas">
+
+                <article class="tarjeta-articulo">
+                  <div class="tarjeta-imagen-envoltorio">
+                    <img src="articulos/pinturas/articulo1.png" alt="Óleo sobre lienzo titulado Atardecer serrano, en tonos ocres">
+                  </div>
+                  <div class="tarjeta-cuerpo">
+                    <h4>Óleo "Atardecer serrano"</h4>
+                    <p class="tarjeta-precio">$ 35.000</p>
+                    <p class="tarjeta-descripcion">
+                      Óleo sobre lienzo que retrata el atardecer sobre las sierras, en tonos cálidos.
+                    </p>
+                    <a class="enlace-pdf" href="articulos/pinturas/articulo1.pdf" target="_blank" rel="noopener">
+                      Consultar ficha técnica en PDF
+                    </a>
+                  </div>
+                </article>
+
+                <article class="tarjeta-articulo">
+                  <div class="tarjeta-imagen-envoltorio">
+                    <img src="articulos/pinturas/articulo2.png" alt="Acuarela titulada Mercado artesanal, con colores vivos">
+                  </div>
+                  <div class="tarjeta-cuerpo">
+                    <h4>Acuarela "Mercado artesanal"</h4>
+                    <p class="tarjeta-precio">$ 18.000</p>
+                    <p class="tarjeta-descripcion">
+                      Acuarela que retrata la vida de un mercado de artesanos, con colores vivos y sueltos.
+                    </p>
+                    <a class="enlace-pdf" href="articulos/pinturas/articulo2.pdf" target="_blank" rel="noopener">
+                      Consultar ficha técnica en PDF
+                    </a>
+                  </div>
+                </article>
+
+                <article class="tarjeta-articulo">
+                  <div class="tarjeta-imagen-envoltorio">
+                    <img src="articulos/pinturas/articulo3.png" alt="Acrílico abstracto titulado Raíces, en tonos ocre y dorado">
+                  </div>
+                  <div class="tarjeta-cuerpo">
+                    <h4>Acrílico "Raíces"</h4>
+                    <p class="tarjeta-precio">$ 27.000</p>
+                    <p class="tarjeta-descripcion">
+                      Obra abstracta en acrílico que representa raíces entrelazadas, en tonos ocre y dorado.
+                    </p>
+                    <a class="enlace-pdf" href="articulos/pinturas/articulo3.pdf" target="_blank" rel="noopener">
+                      Consultar ficha técnica en PDF
+                    </a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section id="contacto" class="seccion seccion-alterna" aria-labelledby="titulo-contacto">
+      <div class="envoltorio">
+        <h2 id="titulo-contacto">Contacto</h2>
+        <p class="subtitulo-seccion">
+          Escribinos ante cualquier consulta sobre nuestros artículos o pedidos especiales.
+        </p>
+
+        <div class="contacto-layout">
+          <div class="contacto-datos">
+            <h3>Otros medios de contacto</h3>
+            <ul>
+              <li>Correo electrónico: contacto@raicesartesanales.com</li>
+              <li>Teléfono: +54 11 5555-5555</li>
+              <li>Taller: Buenos Aires, Argentina</li>
+              <li>Horario de atención: lunes a viernes de 10 a 18 hs.</li>
+            </ul>
+          </div>
+
+          <form class="formulario-contacto" action="#" method="get">
+            <div class="campo">
+              <label for="nombre">Nombre y apellido</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+            </div>
+
+            <div class="campo">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" autocomplete="email" required>
+            </div>
+
+            <div class="campo">
+              <label for="asunto">Asunto</label>
+              <input type="text" id="asunto" name="asunto" required>
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+
+            <button type="submit" class="boton boton-primario">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie-pagina">
+    <div class="envoltorio">
+      <p>&copy; 2026 Raíces Artesanales. Todos los derechos reservados.</p>
+      <p><a href="#inicio">Volver al inicio</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
